@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin:0% ;
+    padding: 0%;
+    
+    }
+    
+    header {
+        background-color: lightblue;
+    }
+    
+    .container {
+          width: 950px;
+          margin: 0 auto;
+    }
+    
+    nav {
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+        padding: 20px;
+    }
+    .nav-logo {
+        color: aliceblue;
+        font-size: 16px;
+    }
+
+    
+.hero {
+    display: flex;
+    flex-shrink: 0;
+}
+.hero-text {
+    margin-top: 130px;
+    margin-left: 160px;
+}
+
+.hero-text h2 {
+    color: aliceblue;
+    font-size: 35px;
+}
